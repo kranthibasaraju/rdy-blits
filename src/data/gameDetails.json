@@ -1,0 +1,72 @@
+{
+  "games": [
+    {
+      "gameId": 1,
+      "name": "Game 1",
+      "description": "semi final",
+      "image": "image1.jpg",
+      "teams": [
+        {
+          "teamId": 1,
+          "name": "India",
+          "batsman": "Rahul",
+          "batsman2": "Dhoni"
+        },
+        {
+          "teamId": 2,
+          "name": "Australia",
+          "wicketKeeper" : "Sam",
+          "bowler": "John"
+        }
+      ],
+      "status": "Active",
+      "venue": "Venue 1",
+      "date": "2025-03-10",
+      "time": "10:00 AM",
+      "currentScore": "10/0",
+      "playingTeam": "India",
+      "nextTeam": "Australia",
+      "runs": 10,
+      "wickets": 0,
+      "overs": 0.5,
+      "ball": 5,
+      "totalOvers": 10,
+      "totalBalls": 60,
+      "innings": 1,
+      "inningsType": "First Innings",
+      "isCompleted": false
+    },
+    {
+      "gameId": 2,
+      "name": "Game 2",
+      "description": "final",
+      "image": "image2.jpg",
+      "teams": [
+        {
+          "teamId": 3,
+          "name": "England"
+        },
+        {
+          "teamId": 4,
+          "name": "New Zealand"
+        }
+      ],
+      "status": "Active",
+      "venue": "Venue 2",
+      "date": "2025-03-10",
+      "time": "10:00 AM",
+      "currentScore": "0/0",
+      "playingTeam": "England",
+      "nextTeam": "New Zealand",
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0,
+      "ball": 0,
+      "totalOvers": 10,
+      "totalBalls": 60,
+      "innings": 1,
+      "inningsType": "First Innings",
+      "isCompleted": false
+    }
+  ]
+}
